@@ -8,12 +8,12 @@ default: &default
 
 development:
   <<: *default
-  database: V2OneBitExchange_development
+  database: AngelExchanges_development
 
 
 test:
   <<: *default
-  database: V2OneBitExchange_test
+  database: AngelExchanges_test
  
 
 production:
