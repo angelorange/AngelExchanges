@@ -1,4 +1,5 @@
 $(document).ready ->
+  console.log('teste de js')
   $('form').submit ->
     if $('form').attr('action') == '/convert'
       $.ajax '/convert',
