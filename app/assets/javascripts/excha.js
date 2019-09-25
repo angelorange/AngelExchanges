@@ -13,7 +13,6 @@ $(document).ready(function() {
           return alert(textStatus);
         },
         success: function(data, text, jqXHR) {
-          console.log('test');
           $('#result').val(data.value);
         }
       });
