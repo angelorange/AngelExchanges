@@ -13,7 +13,8 @@ $(document).ready(function() {
           return alert(textStatus);
         },
         success: function(data, text, jqXHR) {
-          return $('#result').val(data.value);
+          console.log('test');
+          $('#result').val(data.value);
         }
       });
       return false;
